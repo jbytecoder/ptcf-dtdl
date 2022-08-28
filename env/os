@@ -1,0 +1,4 @@
+
+CFLAGS="-march=core-avx-i -Os -fomit-frame-pointer -pipe"
+CXXFLAGS="${CFLAGS}"
+

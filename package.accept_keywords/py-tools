@@ -1,0 +1,5 @@
+# required by @py-toys (argument)
+=dev-python/xonsh-0.4.7 ~amd64
+# required by @py-toys (argument)
+=dev-python/sh-1.12.9 ~amd64
+

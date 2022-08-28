@@ -1,0 +1,5 @@
+sys-apps/portage
+app-portage/eix
+app-portage/gentoolkit
+app-portage/ufed
+app-eselect/eselect-repository

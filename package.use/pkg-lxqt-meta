@@ -1,0 +1,1 @@
+lxqt-base/lxqt-meta -about -display-manager filemanager nls -sddm trash admin archiver lximage -minimal powermanagement processviewer screenshot ssh-askpass sudo terminal

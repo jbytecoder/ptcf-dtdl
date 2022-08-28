@@ -1,0 +1,4 @@
+media-libs/mesa
+x11-libs/libdrm
+#x11-base/xorg-server
+#x11-drives/xf86-video-nouveau

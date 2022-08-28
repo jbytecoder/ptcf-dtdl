@@ -1,0 +1,4 @@
+dev-util/vmtouch
+# required by @selected
+# required by @world (argument)
+=sys-fs/jdiskreport-bin-1.4.1 ~amd64

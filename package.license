@@ -1,0 +1,9 @@
+x11-misc/albert all-rights-reserved
+
+# required by google-chrome (argument)
+>=www-client/google-chrome-53.0.2785.101 google-chrome
+www-plugins/adobe-flash AdobeFlash-11.x
+sys-kernel/linux-firmware linux-firmware no-source-code linux-fw-redistributable
+sys-fs/jdiskreport-bin freedist
+media-libs/faac MPEG-4
+sys-kernel/gentoo-sources linux-firmware

@@ -1,0 +1,4 @@
+sys-devel/gcc
+sys-devel/libtool
+sys-devel/binutils
+sys-libs/glibc

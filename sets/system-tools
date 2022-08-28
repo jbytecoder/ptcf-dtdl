@@ -1,0 +1,7 @@
+sys-apps/hdparm
+sys-apps/lm-sensors
+sys-apps/smartmontools
+sys-apps/usbutils
+sys-block/gparted
+sys-fs/ntfs3g
+sys-power/cpupower

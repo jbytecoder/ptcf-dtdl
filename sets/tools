@@ -1,0 +1,14 @@
+#app-emulation/virtualbox
+#app-emulation/wine-vanilla
+#app-emulation/wine-staging
+app-misc/evtest
+app-shells/bash-completion
+dev-ruby/net-telnet
+dev-util/schroot
+media-gfx/graphviz
+net-misc/ntp
+net-vpn/networkmanager-openvpn
+net-vpn/openconnect
+x11-apps/xrandr
+x11-apps/xev
+media-video/guvcview

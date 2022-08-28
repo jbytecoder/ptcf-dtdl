@@ -1,0 +1,2 @@
+# break dependency cycle
+media-libs/opencolorio -opengl

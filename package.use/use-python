@@ -1,0 +1,4 @@
+media-gfx/gimp -python
+net-print/cups -python
+dev-libs/libnatspec -python
+dev-lang/yasm -python

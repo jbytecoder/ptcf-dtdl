@@ -1,0 +1,7 @@
+gui-wm/wayfire
+# deps
+gui-libs/wf-config
+# addons
+gui-apps/wcm
+gui-apps/waybar
+dev-libs/date
