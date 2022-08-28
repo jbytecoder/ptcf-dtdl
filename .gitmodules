@@ -1,0 +1,3 @@
+[submodule "repos/gentoo"]
+	path = repos/gentoo
+	url = https://github.com/gentoo/gentoo.git
