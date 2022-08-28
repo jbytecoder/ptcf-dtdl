@@ -1,3 +1,6 @@
 [submodule "repos/gentoo"]
 	path = repos/gentoo
 	url = https://github.com/gentoo/gentoo.git
+[submodule "repos/jbytecoder"]
+	path = repos/jbytecoder
+	url = git@github.com:jbytecoder/gentoo-overlay.git
