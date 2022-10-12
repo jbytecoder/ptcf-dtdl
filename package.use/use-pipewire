@@ -1,0 +1,21 @@
+# X bluetooth dbus ssl systemd udev -v4l -zeroconf
+media-video/pipewire -doc -echo-cancel -extra gstreamer -jack-client -jack-sdk -lv2 pipewire-alsa sound-server
+# bluetooth
+media-sound/pulseaudio glib -daemon -jack -ofono-headset
+
+app-admin/conky pulseaudio
+dev-qt/qtmultimedia pulseaudio
+media-gfx/blender pulseaudio
+media-libs/libcanberra pulseaudio
+media-libs/libsdl pulseaudio
+media-libs/libsdl2 -pulseaudio pipewire
+media-libs/openal pulseaudio
+media-plugins/alsa-plugins pulseaudio
+media-plugins/gst-plugins-meta pulseaudio
+media-sound/mpg123 pulseaudio
+media-sound/strawberry pulseaudio
+media-video/ffmpeg pulseaudio
+media-video/guvcview pulseaudio
+media-video/vlc pulseaudio
+net-misc/freerdp pulseaudio
+net-wireless/blueman pulseaudio

@@ -120,3 +120,9 @@ media-libs/vulkan-loader abi_x86_32
 # required by @selected
 # required by @world (argument)
 >=media-libs/libpulse-16.0 abi_x86_32
+# required by media-libs/libsdl2-2.0.20-r1::gentoo[pipewire]
+# required by media-video/guvcview-2.0.6-r2::gentoo
+# required by @tools
+# required by @selected
+# required by @world (argument)
+>=media-video/pipewire-0.3.56 abi_x86_32
