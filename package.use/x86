@@ -126,3 +126,195 @@ media-libs/vulkan-loader abi_x86_32
 # required by @selected
 # required by @world (argument)
 >=media-video/pipewire-0.3.56 abi_x86_32
+# required by media-gfx/freecad-0.20.1::gentoo
+# required by freecad (argument)
+>=sci-libs/flann-1.9.1-r4 openmp
+# required by app-emulation/wine-staging-7.18::gentoo[v4l]
+# required by wine-staging (argument)
+>=media-libs/libv4l-1.22.1 abi_x86_32
+# required by media-plugins/gst-plugins-pulse-1.20.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[pulseaudio]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-libs/gst-plugins-base-1.20.3 abi_x86_32
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-libs/gstreamer-1.20.3 abi_x86_32
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-plugins/gst-plugins-meta-1.20.3 abi_x86_32
+# required by media-plugins/gst-plugins-flac-1.20.3-r1::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[flac]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-libs/gst-plugins-good-1.20.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[dvd,a52]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-plugins/gst-plugins-a52dec-1.20.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[aac]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-plugins/gst-plugins-faad-1.20.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[dts]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-plugins/gst-plugins-dts-1.20.3 abi_x86_32
+# required by media-plugins/gst-plugins-a52dec-1.20.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[dvd,a52]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-libs/gst-plugins-ugly-1.20.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[dvd]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-plugins/gst-plugins-dvdread-1.20.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[mpeg,vcd,dvd]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-plugins/gst-plugins-mpeg2dec-1.20.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[dvd]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-plugins/gst-plugins-resindvd-1.20.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[ffmpeg]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-plugins/gst-plugins-libav-1.20.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[flac]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-plugins/gst-plugins-flac-1.20.3-r1 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[mp3]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-plugins/gst-plugins-mpg123-1.20.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[pulseaudio]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-plugins/gst-plugins-pulse-1.20.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[vcd]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-plugins/gst-plugins-mplex-1.20.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[x264]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-plugins/gst-plugins-x264-1.20.3 abi_x86_32
+# required by media-plugins/gst-plugins-mplex-1.20.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[vcd]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-video/mjpegtools-2.2.1 abi_x86_32
+# required by media-plugins/gst-plugins-dts-1.20.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[dts]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-libs/gst-plugins-bad-1.20.3 abi_x86_32
+# required by media-libs/gst-plugins-base-1.20.3::gentoo[orc]
+# required by media-plugins/gst-plugins-cdparanoia-1.20.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[cdda]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=dev-lang/orc-0.4.31 abi_x86_32
+# required by media-video/mjpegtools-2.2.1::gentoo[sdl]
+# required by media-plugins/gst-plugins-mplex-1.20.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[vcd]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-libs/libsdl-1.2.15_p20210224 abi_x86_32
+# required by media-libs/libsdl-1.2.15_p20210224::gentoo[sound]
+# required by media-libs/libmpeg2-0.5.1-r3::gentoo[sdl]
+# required by media-plugins/gst-plugins-mpeg2dec-1.20.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[mpeg,vcd,dvd]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-libs/audiofile-0.3.6-r5 abi_x86_32
+# required by media-plugins/gst-plugins-resindvd-1.20.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[dvd]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-libs/libdvdnav-6.1.1 abi_x86_32
+# required by media-libs/libdvdnav-6.1.1::gentoo
+# required by media-plugins/gst-plugins-resindvd-1.20.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[dvd]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-libs/libdvdread-6.1.2 abi_x86_32
+# required by media-libs/libdvdread-6.1.2::gentoo[css]
+# required by media-plugins/gst-plugins-dvdread-1.20.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[dvd]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-libs/libdvdcss-1.4.3 abi_x86_32
+# required by media-plugins/gst-plugins-mpeg2dec-1.20.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[mpeg,vcd,dvd]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-libs/libmpeg2-0.5.1-r3 abi_x86_32
+# required by media-plugins/gst-plugins-dts-1.20.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[dts]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-libs/libdca-0.0.7 abi_x86_32
+# required by media-plugins/gst-plugins-faad-1.20.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[aac]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-libs/faad2-2.10.0 abi_x86_32
+# required by media-plugins/gst-plugins-a52dec-1.20.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[dvd,a52]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-libs/a52dec-0.7.4-r8 abi_x86_32
+# required by media-libs/gst-plugins-base-1.20.3::gentoo[gles2,opengl]
+# required by media-plugins/gst-plugins-cdparanoia-1.20.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[cdda]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-libs/graphene-1.10.8 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[cdda]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-plugins/gst-plugins-cdparanoia-1.20.3 abi_x86_32
+# required by media-plugins/gst-plugins-cdparanoia-1.20.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.3::gentoo[cdda]
+# required by app-emulation/wine-staging-7.18::gentoo[gstreamer]
+# required by wine-staging (argument)
+>=media-sound/cdparanoia-3.10.2-r7 abi_x86_32
+# required by app-emulation/wine-staging-7.18::gentoo[kerberos]
+# required by wine-staging (argument)
+>=virtual/krb5-0-r1 abi_x86_32
+# required by virtual/krb5-0-r1::gentoo
+# required by app-emulation/wine-staging-7.18::gentoo[kerberos]
+# required by wine-staging (argument)
+>=app-crypt/mit-krb5-1.19.2-r4 abi_x86_32
+# required by app-crypt/mit-krb5-1.19.2-r4::gentoo
+# required by virtual/krb5-0-r1::gentoo
+# required by app-emulation/wine-staging-7.18::gentoo[kerberos]
+# required by wine-staging (argument)
+>=sys-fs/e2fsprogs-1.46.5-r1 abi_x86_32
+# required by app-crypt/mit-krb5-1.19.2-r4::gentoo[keyutils]
+# required by virtual/krb5-0-r1::gentoo
+# required by app-emulation/wine-staging-7.18::gentoo[kerberos]
+# required by wine-staging (argument)
+>=sys-apps/keyutils-1.6.3 abi_x86_32
+# required by app-crypt/mit-krb5-1.19.2-r4::gentoo[pkinit]
+# required by virtual/krb5-0-r1::gentoo
+# required by app-emulation/wine-staging-7.18::gentoo[kerberos]
+# required by wine-staging (argument)
+>=dev-libs/openssl-1.1.1q abi_x86_32
+# required by app-crypt/mit-krb5-1.19.2-r4::gentoo
+# required by virtual/krb5-0-r1::gentoo
+# required by app-emulation/wine-staging-7.18::gentoo[kerberos]
+# required by wine-staging (argument)
+>=dev-libs/libverto-0.3.1-r1 abi_x86_32
+# required by dev-libs/libverto-0.3.1-r1::gentoo[libev]
+# required by app-crypt/mit-krb5-1.19.2-r4::gentoo
+# required by virtual/krb5-0-r1::gentoo
+# required by app-emulation/wine-staging-7.18::gentoo[kerberos]
+# required by wine-staging (argument)
+>=dev-libs/libev-4.33 abi_x86_32
+# required by sci-electronics/kicad-6.0.6::gentoo[python_single_target_python3_10]
+# required by kicad (argument)
+>=dev-libs/boost-1.79.0 context

@@ -1,2 +1,2 @@
 app-emulation/wine-vanilla gecko
-app-emulation/wine-staging gecko
+app-emulation/wine-staging -gecko gstreamer kerberos v4l
