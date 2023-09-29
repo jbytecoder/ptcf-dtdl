@@ -1,3 +1,4 @@
+kde-plasma/plasma-meta
 #kde-plasma/plasma-desktop
 #kde-plasma/xembed-sni-proxy
 #kde-plasma/plasma-pa
@@ -23,15 +24,15 @@
 #kde-plasma/kwallet-pam
 
 
-#kde-apps/ark
-#kde-apps/dolphin
-#kde-apps/gwenview
-#app-editors/okteta
-#kde-apps/okular
+kde-apps/ark
+kde-apps/dolphin
+kde-apps/gwenview
+app-editors/okteta
+kde-apps/okular
 #kde-apps/k3b
-#kde-apps/kget
-#net-p2p/ktorrent
-#kde-apps/konsole
-#kde-misc/krusader
-#kde-apps/kate
-#kde-apps/kwalletmanager
+kde-apps/kget
+net-p2p/ktorrent
+kde-apps/konsole
+kde-misc/krusader
+kde-apps/kate
+kde-apps/kwalletmanager

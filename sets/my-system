@@ -4,6 +4,7 @@ app-arch/pbzip2
 app-arch/pigz
 sys-fs/squashfs-tools
 sys-kernel/gentoo-sources
+=sys-kernel/gentoo-sources-5.18.3
 sys-kernel/linux-firmware
 sys-boot/grub
 dev-util/vmtouch

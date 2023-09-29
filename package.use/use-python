@@ -1,4 +1,5 @@
-media-gfx/gimp -python
-net-print/cups -python
-dev-libs/libnatspec -python
-dev-lang/yasm -python
+*/* -python 
+*/* PYTHON_TARGETS: python3_11 python3_10
+*/* PYTHON_SINGLE_TARGET: python3_11
+
+dev-libs/libxml2 python

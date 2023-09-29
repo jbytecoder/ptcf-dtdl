@@ -1,13 +1,6 @@
-#app-emulation/virtualbox
-app-emulation/wine-vanilla
-app-emulation/wine-staging
-#app-emulation/dosemu
 app-misc/evtest
-app-shells/bash-completion
-dev-ruby/net-telnet
 dev-util/schroot
 media-gfx/graphviz
-net-misc/ntp
 net-vpn/networkmanager-openvpn
 net-vpn/openconnect
 net-vpn/openfortivpn

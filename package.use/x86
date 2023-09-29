@@ -318,3 +318,100 @@ media-libs/vulkan-loader abi_x86_32
 # required by sci-electronics/kicad-6.0.6::gentoo[python_single_target_python3_10]
 # required by kicad (argument)
 >=dev-libs/boost-1.79.0 context
+# required by dev-libs/glib-2.76.2::gentoo
+# required by media-libs/libpulse-16.1-r2::gentoo[glib]
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-sound/mpg123-1.31.3::gentoo[pulseaudio]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+>=dev-libs/libpcre2-10.42-r1 abi_x86_32
+# required by net-libs/gnutls-3.7.8::gentoo[brotli]
+# required by net-mail/mailutils-3.15::gentoo[ssl]
+# required by virtual/mailx-4::gentoo
+# required by sys-apps/smartmontools-7.3::gentoo
+# required by @system-tools
+# required by @selected
+# required by @world (argument)
+>=app-arch/brotli-1.0.9-r5 abi_x86_32
+# required by dev-python/matplotlib-3.7.1::gentoo[-test]
+# required by media-gfx/freecad-0.20.2::gentoo[python_single_target_python3_10]
+# required by @apps
+# required by @selected
+# required by @world (argument)
+>=dev-python/pillow-9.5.0 webp
+# required by sci-libs/vtk-9.2.5::gentoo
+# required by sci-libs/opencascade-7.6.3-r1::gentoo[vtk]
+# required by media-gfx/freecad-0.20.2::gentoo
+# required by @apps
+# required by @selected
+# required by @world (argument)
+>=sci-libs/cgnslib-4.3.0-r2 hdf5
+# required by media-video/pipewire-0.3.77-r1::gentoo[ieee1394]
+# required by dev-qt/qtwebengine-5.15.10_p20230623::gentoo[screencast]
+# required by dev-python/pyside2-5.15.10::gentoo[webengine]
+# required by media-gfx/freecad-0.20.2-r1::gentoo[python_single_target_python3_11,gui]
+# required by @apps
+# required by @selected
+# required by @world (argument)
+>=media-libs/libffado-2.4.7 abi_x86_32
+# required by media-libs/libffado-2.4.7::gentoo
+# required by media-video/pipewire-0.3.77-r1::gentoo[ieee1394]
+# required by dev-qt/qtwebengine-5.15.10_p20230623::gentoo[screencast]
+# required by dev-python/pyside2-5.15.10::gentoo[webengine]
+# required by media-gfx/freecad-0.20.2-r1::gentoo[python_single_target_python3_11,gui]
+# required by @apps
+# required by @selected
+# required by @world (argument)
+>=dev-cpp/libxmlpp-2.42.2:2.6 abi_x86_32
+# required by media-libs/libffado-2.4.7::gentoo
+# required by media-video/pipewire-0.3.77-r1::gentoo[ieee1394]
+# required by dev-qt/qtwebengine-5.15.10_p20230623::gentoo[screencast]
+# required by dev-python/pyside2-5.15.10::gentoo[webengine]
+# required by media-gfx/freecad-0.20.2-r1::gentoo[python_single_target_python3_11,gui]
+# required by @apps
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libconfig-1.7.3 abi_x86_32
+# required by media-libs/libffado-2.4.7::gentoo
+# required by media-video/pipewire-0.3.77-r1::gentoo[ieee1394]
+# required by dev-qt/qtwebengine-5.15.10_p20230623::gentoo[screencast]
+# required by dev-python/pyside2-5.15.10::gentoo[webengine]
+# required by media-gfx/freecad-0.20.2-r1::gentoo[python_single_target_python3_11,gui]
+# required by @apps
+# required by @selected
+# required by @world (argument)
+>=media-libs/libiec61883-1.2.0-r2 abi_x86_32
+# required by media-libs/libffado-2.4.7::gentoo
+# required by media-video/pipewire-0.3.77-r1::gentoo[ieee1394]
+# required by dev-qt/qtwebengine-5.15.10_p20230623::gentoo[screencast]
+# required by dev-python/pyside2-5.15.10::gentoo[webengine]
+# required by media-gfx/freecad-0.20.2-r1::gentoo[python_single_target_python3_11,gui]
+# required by @apps
+# required by @selected
+# required by @world (argument)
+>=sys-libs/libavc1394-0.5.4-r2 abi_x86_32
+# required by dev-cpp/libxmlpp-2.42.2::gentoo
+# required by media-libs/libffado-2.4.7::gentoo
+# required by media-video/pipewire-0.3.77-r1::gentoo[ieee1394]
+# required by dev-qt/qtwebengine-5.15.10_p20230623::gentoo[screencast]
+# required by dev-python/pyside2-5.15.10::gentoo[webengine]
+# required by media-gfx/freecad-0.20.2-r1::gentoo[python_single_target_python3_11,gui]
+# required by @apps
+# required by @selected
+# required by @world (argument)
+>=dev-cpp/glibmm-2.66.6:2 abi_x86_32
+# required by dev-cpp/glibmm-2.66.6::gentoo
+# required by dev-cpp/libxmlpp-2.42.2::gentoo
+# required by media-libs/libffado-2.4.7::gentoo
+# required by media-video/pipewire-0.3.77-r1::gentoo[ieee1394]
+# required by dev-qt/qtwebengine-5.15.10_p20230623::gentoo[screencast]
+# required by dev-python/pyside2-5.15.10::gentoo[webengine]
+# required by media-gfx/freecad-0.20.2-r1::gentoo[python_single_target_python3_11,gui]
+# required by @apps
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libsigc++-2.12.0:2 abi_x86_32
+# required by gui-wm/wayfire-0.7.5-r1::gentoo[system-wlroots]
+# required by @desktop
+# required by @selected
+# required by @world (argument)
+>=gui-libs/wlroots-0.16.2-r1 x11-backend

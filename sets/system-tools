@@ -5,3 +5,4 @@ sys-apps/usbutils
 sys-block/gparted
 sys-fs/ntfs3g
 sys-power/cpupower
+=sys-devel/gcc-11.3.0

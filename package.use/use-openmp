@@ -1,0 +1,4 @@
+*/* -openmp
+
+sys-devel/gcc openmp
+#sys-devel/clang-runtime openmp

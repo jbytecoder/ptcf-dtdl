@@ -2,6 +2,7 @@ app-office/libreoffice-bin
 dev-db/sqlitebrowser
 media-gfx/blender
 media-gfx/gimp
+media-gfx/freecad
 media-sound/strawberry
 media-sound/audacity
 media-video/bashnapi
@@ -9,4 +10,5 @@ media-video/vlc
 net-im/synology-chat
 net-misc/remmina
 sys-fs/jdiskreport-bin
+sci-electronics/qelectrotech
 www-client/google-chrome

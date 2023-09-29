@@ -1,0 +1,4 @@
+app-alternatives/awk gawk
+app-alternatives/bzip2 pbzip2 -reference
+app-alternatives/gzip pigz -reference
+app-alternatives/tar gnu

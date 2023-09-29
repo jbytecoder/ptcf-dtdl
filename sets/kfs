@@ -1,0 +1,11 @@
+dev-util/vmtouch
+sys-fs/squashfs-tools
+app-shells/bash
+#pkg/app-arch/pigz-2.3.3
+#pkg/app-arch/tar-1.28-r1
+#pkg/app-arch/gzip-1.8
+sys-apps/hdparm
+sys-apps/grep
+sys-apps/sed
+sys-apps/util-linux
+sys-apps/busybox

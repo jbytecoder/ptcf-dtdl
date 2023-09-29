@@ -2,24 +2,35 @@
 #=== Portage directories ===#
 #===========================#
 
-#DISTDIR="/usr/local/portage/distfiles"
-PKGDIR="/media/iglo/portage"
+DISTDIR="/media/DANE/Download/distfiles"
+PKGDIR="/media/iglo/bs"
 PORTAGE_TMPDIR="/tmp"
 
 #=============================#
 #=== Global build settings ===#
 #=============================#
 
-CFLAGS="-march=core-avx-i -Os -fomit-frame-pointer -pipe"
-CXXFLAGS="${CFLAGS}"
+#CFLAGS="-march=core-avx-i -Os -fomit-frame-pointer -pipe"
+#CXXFLAGS="${CFLAGS}"
 # WARNING: Changing your CHOST is not something that should be done lightly.
 # Please consult http://www.gentoo.org/doc/en/change-chost.xml before changing.
 CHOST="x86_64-pc-linux-gnu"
-# These are the USE and USE_EXPAND flags that were used for
-# buidling in addition to what is provided by the profile.
 MAKEOPTS="-j8"
-
 FEATURES="buildpkg"
+
+#===============================#
+#===   CLang system switch   ===#
+#===============================#
+
+CFLAGS="-O2 -march=native -flto=thin"
+CXXFLAGS="${CFLAGS}"
+LDFLAGS="-Wl,-O2 -Wl,--as-needed -flto=thin"
+
+CC="clang"
+CXX="clang++"
+AR="llvm-ar"
+NM="llvm-nm"
+RANLIB="llvm-ranlib"
 
 #===============================#
 #=== Global package settings ===#
@@ -27,6 +38,7 @@ FEATURES="buildpkg"
 LINGUAS="pl"
 L10N="pl"
 
+LLVM_TARGETS="X86 AMDGPU"
 ALSA_CARDS="hda-intel"
 INPUT_DEVICES="evdev synaptics"
 VIDEO_CARDS="nouveau amdgpu radeon radeonsi"
@@ -38,14 +50,14 @@ GRUB_PLATFORMS="pc"
 PYTHON_SINGLE_TARGET="python3_10"
 PYTHON_TARGETS="python3_10"
 
-RUBY_TARGETS="ruby27" 
+RUBY_TARGETS="ruby30" 
 
-USE="bash-completion bluetooth cdparanoia client d3d9 djvu egl eglfs ffmpeg
-     ftp gles gles1 gles2 gles3 hddtemp ieee1394 introspection jpeg2k libkms
-     lm_sensors lzma lzo matroska mplayer networkmanager openal pcmcia
-     pulseaudio python samba smp sqlite threads vcd vulkan wayland wifi -audit
-     -cracklib -crypt -doc -emboss -gecko -gpm -handbook -kde -kwallet
-     -libproxy -openmp -plasma -rss -rsync-verify -seccomp -semantic-desktop
-     -webengine"
+USE="bash-completion bluetooth brotli cdparanoia clang client d3d9 djvu egl
+     eglfs ffmpeg ftp gles gles1 gles2 gles3 hddtemp ieee1394 introspection
+     jpeg2k libkms lm_sensors lzma lzo matroska mplayer networkmanager openal
+     openmp pcmcia pcre32 pulseaudio python samba smp sqlite threads vcd
+     vulkan wayland wifi -audit -cracklib -crypt -doc -emboss -gecko -gpm
+     -handbook -kde -kwallet -libproxy -perl -plasma -rss -rsync-verify
+     -seccomp -semantic-desktop -webengine"
 
 #source /usr/local/portage/overlays/make.conf
