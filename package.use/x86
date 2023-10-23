@@ -415,3 +415,11 @@ media-libs/vulkan-loader abi_x86_32
 # required by @selected
 # required by @world (argument)
 >=gui-libs/wlroots-0.16.2-r1 x11-backend
+# required by media-libs/mesa-23.2.1::gentoo[X]
+# required by kde-plasma/kwin-5.27.8-r2::gentoo
+# required by kde-plasma/plasma-desktop-5.27.8::gentoo
+# required by kde-plasma/plasma-meta-5.27.8::gentoo
+# required by @kde5
+# required by @selected
+# required by @world (argument)
+>=x11-libs/xcb-util-keysyms-0.4.1 abi_x86_32

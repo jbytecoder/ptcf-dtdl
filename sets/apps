@@ -1,6 +1,6 @@
 app-office/libreoffice-bin
 dev-db/sqlitebrowser
-media-gfx/blender
+#media-gfx/blender
 media-gfx/gimp
 media-gfx/freecad
 media-sound/strawberry
